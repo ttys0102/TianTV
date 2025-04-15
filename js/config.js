@@ -9,7 +9,7 @@ const MAX_HISTORY_ITEMS = 5;
 const SITE_CONFIG = {
     name: 'Tian-geTV',
     url: 'https://tv.tiantianzxw.cf/',
-    description: '免费在线视频搜索与观看平台',
+    description: '全网免费在线视频搜索与观看平台',
     logo: 'https://images.icon-icons.com/38/PNG/512/retrotv_5520.png',
     version: '1.0.0'
 };
