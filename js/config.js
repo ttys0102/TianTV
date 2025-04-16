@@ -203,7 +203,7 @@ const SECURITY_CONFIG = {
     maxQueryLength: 100,        // 最大搜索长度
     allowedApiDomains: [        // 允许的API域名
         'heimuer.xyz',
-        'ffzy5.tv'
+        'ffzy5.tv' 
     ]
 };
 
