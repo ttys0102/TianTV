@@ -7,9 +7,9 @@ const MAX_HISTORY_ITEMS = 5;
 
 // 网站信息配置
 const SITE_CONFIG = {
-    name: 'Tian-geTV',
+    name: 'Tiange-TV',
     url: 'https://tv.tiantianzxw.cf/',
-    description: '全网免费在线视频搜索与观看平台',
+    description: '免费在线视频搜索与观看平台',
     logo: 'https://images.icon-icons.com/38/PNG/512/retrotv_5520.png',
     version: '1.0.0'
 };
@@ -106,31 +106,7 @@ const API_SITES = {
         api: 'https://apilsbzy1.com',
         name: 'lsb资源',
         adult: true
-    ptzy: {
-        api: 'https://caiji.putaozyw.net',
-        name: '葡萄资源',
-        adult: true
-    },    
-    yhzy: {
-        api: 'https://m3u8.apiyhzy.com',
-        name: '樱花资源',
-        adult: true
-    },    
-    slzy: {
-        api: 'https://sljxsl.com',
-        name: '森林资源',
-        adult: true
-    },    
-    clzy: {
-        api: 'https://www.caoliuzyw.com',
-        name: '草榴资源',
-        adult: true
-    },    
-    nxxzy: {
-        api: 'https://naixxzy.com',
-        name: '奶香香资源',
-        adult: true
-    },    
+    },
     huangcang: {
         api: 'https://hsckzy.vip',
         name: '黄色仓库',
@@ -203,7 +179,7 @@ const SECURITY_CONFIG = {
     maxQueryLength: 100,        // 最大搜索长度
     allowedApiDomains: [        // 允许的API域名
         'heimuer.xyz',
-        'ffzy5.tv' 
+        'ffzy5.tv'
     ]
 };
 
@@ -220,4 +196,4 @@ const CUSTOM_API_CONFIG = {
 };
 
 // 新增隐藏内置黄色采集站API的变量，默认为true
-const HIDE_BUILTIN_ADULT_APIS = false;
+const HIDE_BUILTIN_ADULT_APIS = true;
