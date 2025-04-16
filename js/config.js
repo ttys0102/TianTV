@@ -106,7 +106,31 @@ const API_SITES = {
         api: 'https://apilsbzy1.com',
         name: 'lsb资源',
         adult: true
-    },
+    ptzy: {
+        api: 'https://caiji.putaozyw.net',
+        name: '葡萄资源',
+        adult: true
+    },    
+    yhzy: {
+        api: 'https://m3u8.apiyhzy.com',
+        name: '樱花资源',
+        adult: true
+    },    
+    slzy: {
+        api: 'https://sljxsl.com',
+        name: '森林资源',
+        adult: true
+    },    
+    clzy: {
+        api: 'https://www.caoliuzyw.com',
+        name: '草榴资源',
+        adult: true
+    },    
+    nxxzy: {
+        api: 'https://naixxzy.com',
+        name: '奶香香资源',
+        adult: true
+    },    
     huangcang: {
         api: 'https://hsckzy.vip',
         name: '黄色仓库',
